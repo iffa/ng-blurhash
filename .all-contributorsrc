@@ -1,0 +1,27 @@
+{
+  "projectName": "ng-blurhash",
+  "projectOwner": "iffa",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "iffa",
+      "name": "Santeri Elo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/759522?v=4",
+      "profile": "https://iffa.dev/",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

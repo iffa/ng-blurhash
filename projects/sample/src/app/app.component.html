@@ -1,0 +1,37 @@
+<div>
+  <div class="links">
+    <a href="https://github.com/iffa/ng-blurhash" target="_blank" referrerpolicy="no-referrer">ng-blurhash</a>
+    <a href="https://github.com/woltapp/react-blurhash" target="_blank" referrerpolicy="no-referrer">react-blurhash</a>
+    <a href="https://github.com/woltapp/blurhash" target="_blank" referrerpolicy="no-referrer">blurhash</a>
+  </div>
+
+  <form>
+    <h4>blurhash configuration</h4>
+    <p>play around with the settings as you wish. you can see the result below</p>
+    <label for="hash">hash</label>
+    <input id="hash" [formControl]="hashControl">
+
+    <div class="spacer"></div>
+
+    <label for="size">size</label>
+    <input id="size" type="range" min="128" max="1024" [formControl]="sizeControl">
+
+    <div class="spacer"></div>
+
+    <label for="resolution">resolution</label>
+    <input id="resolution" type="range" min="4" max="128" [formControl]="resolutionControl">
+
+    <div class="spacer"></div>
+
+    <label for="punch">punch</label>
+    <input id="punch" type="range" min="0" max="20" [formControl]="punchControl">
+  </form>
+
+  <ng-blurhash [hash]="hashControl.value"
+               [width]="sizeControl.value"
+               [height]="sizeControl.value"
+               [punch]="punchControl.value"
+               [resolutionX]="resolutionControl.value"
+               [resolutionY]="resolutionControl.value">
+  </ng-blurhash>
+</div>

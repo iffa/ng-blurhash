@@ -1,0 +1,29 @@
+{
+  "name": "ng-blurhash",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^10.2.0",
+    "@angular/core": "^10.2.0",
+    "blurhash": "^1.1.3"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "keywords": [
+    "angular",
+    "angular 2",
+    "blurhash"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/iffa/ng-blurhash/issue"
+  },
+  "homepage": "https://github.com/iffa/ng-blurhash#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iffa/ng-blurhash"
+  }
+}
