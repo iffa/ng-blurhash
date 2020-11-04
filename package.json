@@ -12,6 +12,7 @@
     "commit": "git-cz",
     "release:first": "npm run release -- --first-release",
     "build:lib": "ng build ng-blurhash --prod",
+    "build:sample": "ng build sample --prod",
     "postbuild:lib": "copyfiles README.md logo.svg dist/ng-blurhash",
     "test:lib": "ng test ng-blurhash",
     "release": "cd projects/ng-blurhash && standard-version --infile ../../CHANGELOG.md",
